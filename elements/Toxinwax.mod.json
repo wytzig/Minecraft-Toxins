@@ -1,0 +1,11 @@
+{
+  "_fv": 33,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Toxinwax",
+    "splashName": "Splash Potion of Toxinwax",
+    "lingeringName": "Lingering Potion of Toxinwax",
+    "arrowName": "Arrow of Toxinwax",
+    "effects": []
+  }
+}

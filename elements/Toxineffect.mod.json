@@ -1,0 +1,20 @@
+{
+  "_fv": 33,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Toxin poisoned",
+    "icon": "png-transparent-walter-white-say-my-name-drawing-breaking-bad-season-5-sketch-walter-white-television-pencil-hat.png",
+    "color": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "isInstant": true,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "Toxineffectprocedure"
+    }
+  }
+}

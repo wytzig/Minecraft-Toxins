@@ -1,0 +1,277 @@
+{
+  "mod_elements": [
+    {
+      "name": "Toxin",
+      "type": "fluid",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxin",
+      "metadata": {
+        "gb": true
+      }
+    },
+    {
+      "name": "Toxinwax",
+      "type": "potion",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxinwax"
+    },
+    {
+      "name": "BottleToxin",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bottle_toxin"
+    },
+    {
+      "name": "BottleToxinWax",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bottle_toxin_wax"
+    },
+    {
+      "name": "Toxinwaxbottle",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxinwaxbottle"
+    },
+    {
+      "name": "Toxinbottlefill",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxinbottlefill",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ToxinMobplayerCollidesBlock",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxin_mobplayer_collides_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Antitoxin",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antitoxin"
+    },
+    {
+      "name": "Antitoxinleather",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antitoxinleather"
+    },
+    {
+      "name": "AntitoxicArmor",
+      "type": "armor",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antitoxic_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "AntitoxicArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antitoxic_armor_helmet_recipe"
+    },
+    {
+      "name": "AntitoxicArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antitoxic_armor_body_recipe"
+    },
+    {
+      "name": "AntitoxicArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antitoxic_armor_leggings_recipe"
+    },
+    {
+      "name": "AntitoxicArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antitoxic_armor_boots_recipe"
+    },
+    {
+      "name": "Antitoxinrecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antitoxinrecipe"
+    },
+    {
+      "name": "Antitoxinleatherrecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antitoxinleatherrecipe"
+    },
+    {
+      "name": "Toxineffectprocedure",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxineffectprocedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Toxineffect",
+      "type": "potioneffect",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxineffect"
+    },
+    {
+      "name": "Toxinwaste",
+      "type": "dimension",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxinwaste",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "Toxinwasteeffect",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxinwasteeffect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "Timertoxindamage",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0.0"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.minecraft.tipped_arrow.effect.toxinwax": "Arrow of Toxinwax",
+      "item.test.bottle_toxin_wax": "Bottle of Toxinwax",
+      "item.test.antitoxic_armor_boots": "Antitoxic Boots",
+      "item.minecraft.splash_potion.effect.toxinwax": "Splash Potion of Toxinwax",
+      "item.test.bottle_toxin": "Bottle Toxin",
+      "block.test.toxin": "Toxin",
+      "item.minecraft.potion.effect.toxinwax": "Potion of Toxinwax",
+      "effect.test.toxineffect": "Toxin poisoned",
+      "item.test.antitoxic_armor_leggings": "Antitoxic Leggings",
+      "item.test.toxinwaste": "Toxinwaste Portal Igniter",
+      "item.test.antitoxic_armor_helmet": "Antitoxic Helmet",
+      "fluid.test.toxin": "Toxin",
+      "item.test.antitoxic_armor_chestplate": "Antitoxic Chestplate",
+      "item.minecraft.lingering_potion.effect.toxinwax": "Lingering Potion of Toxinwax",
+      "item.test.antitoxin": "Bottle of Antitoxin",
+      "item.test.toxin_bucket": "Toxin Bucket",
+      "item.test.antitoxinleather": "Antitoxin leather"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "test",
+    "modName": "test",
+    "version": ".0.0",
+    "author": "max-k, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.test",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200233511
+}

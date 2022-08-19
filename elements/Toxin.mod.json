@@ -1,0 +1,52 @@
+{
+  "_fv": 33,
+  "_type": "fluid",
+  "definition": {
+    "name": "Toxin",
+    "bucketName": "Toxin Bucket",
+    "textureStill": "toxinstill",
+    "textureFlowing": "toxinflow",
+    "tintType": "No tint",
+    "canMultiply": false,
+    "flowRate": 20,
+    "levelDecrease": 4,
+    "slopeFindDistance": 1,
+    "spawnParticles": false,
+    "dripParticle": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "flowStrength": -1.5,
+    "luminosity": 0,
+    "density": 3,
+    "viscosity": 20,
+    "isGas": false,
+    "temperature": 300,
+    "type": "WATER",
+    "generateBucket": true,
+    "textureBucket": "",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "emptySound": {
+      "value": ""
+    },
+    "rarity": "EPIC",
+    "specialInfo": [],
+    "resistance": 100.0,
+    "luminance": 0,
+    "lightOpacity": 12,
+    "emissiveRendering": true,
+    "tickRate": 10,
+    "flammability": 10,
+    "fireSpreadSpeed": 10,
+    "colorOnMap": "DEFAULT",
+    "frequencyOnChunks": 6,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBiomes": [],
+    "onEntityCollides": {
+      "name": "Toxineffectprocedure"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "test:antitoxinleather"
+    },
+    "2": {
+      "item": "test:antitoxinleather"
+    },
+    "3": {
+      "item": "test:antitoxinleather"
+    },
+    "5": {
+      "item": "test:antitoxinleather"
+    }
+  },
+  "result": {
+    "item": "test:antitoxic_armor_boots",
+    "count": 1
+  }
+}
